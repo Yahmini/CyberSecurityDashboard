@@ -11,7 +11,7 @@ export default function Header() {
       setUser(currentUser);
     });
 
-    return () => unsubscribe(); // cleanup
+    return () => unsubscribe(); 
   }, []);
 
   const handleLogout = () => {

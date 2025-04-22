@@ -243,7 +243,7 @@ const crimeData = {
 function MapComponent() {
   const [hoveredState, setHoveredState] = useState(null);
 
-  // Optimized mouse enter handler using useCallback to reduce unnecessary renders
+  
   const handleMouseEnter = useCallback((state) => {
     if (crimeData[state]) {
       setHoveredState(state);
@@ -310,8 +310,8 @@ function MapComponent() {
           padding: '20px',
           border: '1px solid #ccc',
           backgroundColor: '#f9f9f9',
-          flexShrink: 0,  // Ensure this doesn't shrink when the window resizes
-          display: hoveredState ? 'block' : 'none',  // Only display the block if there is data
+          flexShrink: 0,  
+          display: hoveredState ? 'block' : 'none',  
         }}
       >
         {hoveredState && crimeData[hoveredState] && (

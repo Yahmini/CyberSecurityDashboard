@@ -229,7 +229,7 @@ h1, h2, h3 {
 
 .map-container img {
   display: block;
-  max-width: none; /* Prevent image scaling */
+  max-width: none; 
 }
 
 .tooltip {
