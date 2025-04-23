@@ -245,6 +245,8 @@ h1, h2, h3 {
   box-shadow: 0 0 10px #00f0ff;
   z-index: 10;
 }
+/*Quiz Styles*/
+
 .quiz-container {
   max-width: 700px;
   margin: 2rem auto;
